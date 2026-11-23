@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorder — Run your shop from your phone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark"><i class="fa-solid fa-layer-group"></i></span>
+        <span class="logo-word">Dorder</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#">Features</a>
+        <a href="#">For Shops</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="link-login">Log in</a>
+        <a href="/dashboard" class="btn btn-dark">Get started</a>
+      </div>
+
+<!--
+      <button class="menu-btn" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+-->
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <p class="hero-eyebrow">
+          <span class="dot"></span> Retail management, reimagined
+        </p>
+
+        <h1 class="hero-title">
+          Run your shop<br>
+          <em>from your phone.</em>
+        </h1>
+
+        <p class="hero-desc">
+          Dorder gives every shop — grocery, toys, clothing, electronics,
+          cosmetics — a complete inventory and order system. Scan with your
+          phone camera. No extra hardware. No complicated setup.
+        </p>
+
+        <div class="hero-actions">
+          <a href="/dashboard" class="btn btn-dark">
+            View live demo <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#" class="btn btn-ghost">
+            Explore features
+          </a>
+        </div>
+
+        <div class="hero-proof">
+          <div class="proof-item">
+            <strong>12,000+</strong>
+            <span>Shops onboard</span>
+          </div>
+          <div class="proof-divider"></div>
+          <div class="proof-item">
+            <strong>4.9 ★</strong>
+            <span>Average rating</span>
+          </div>
+          <div class="proof-divider"></div>
+          <div class="proof-item">
+            <strong>2M+</strong>
+            <span>Items scanned</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900&q=80"
+            alt="Shop owner managing inventory on phone"
+            class="hero-img">
+
+          <div class="hero-float float-1">
+            <span class="float-icon"><i class="fa-solid fa-camera"></i></span>
+            <div>
+              <strong>Scan any barcode</strong>
+              <span>With your phone camera</span>
+            </div>
+          </div>
+
+          <div class="hero-float float-2">
+            <span class="float-icon green"><i class="fa-solid fa-check"></i></span>
+            <div>
+              <strong>Sale recorded</strong>
+              <span>Rs 2,340 · just now</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!-- ===== SHOP TYPES SECTION ===== -->
+<section class="shops" id="shops">
+  <div class="shops-inner">
+
+    <div class="shops-head">
+      <p class="section-eyebrow">
+        <span class="dot"></span> Built for every shop
+      </p>
+      <h2 class="section-title">
+        One platform.<br>
+        <em>Every kind of shop.</em>
+      </h2>
+      <p class="section-desc">
+        Whether you sell rice or running shoes, Dorder adapts to how you work.
+        Track stock, manage orders, and grow your business — whatever you sell.
+      </p>
+    </div>
+
+    <div class="shops-grid">
+
+      <a href="#" class="shop-card">
+        <div class="shop-img">
+          <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=600&q=80" alt="Grocery and kiryana store">
+          <span class="shop-tag">Most popular</span>
+        </div>
+        <div class="shop-body">
+          <h3>Grocery & Kiryana</h3>
+          <p>Track hundreds of SKUs, scan items, and manage daily sales with ease.</p>
+          <span class="shop-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <a href="#" class="shop-card">
+        <div class="shop-img">
+          <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&q=80" alt="Toy store">
+        </div>
+        <div class="shop-body">
+          <h3>Toys & Games</h3>
+          <p>Catalog colorful inventory with variants, ages, and brand details.</p>
+          <span class="shop-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <a href="#" class="shop-card">
+        <div class="shop-img">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80" alt="Clothing boutique">
+        </div>
+        <div class="shop-body">
+          <h3>Clothing & Fashion</h3>
+          <p>Size, color, and style tracking made simple. Bulk orders, easy returns.</p>
+          <span class="shop-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <a href="#" class="shop-card">
+        <div class="shop-img">
+          <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=600&q=80" alt="Electronics shop">
+        </div>
+        <div class="shop-body">
+          <h3>Electronics</h3>
+          <p>Serial numbers, warranties, and low-stock alerts for high-value items.</p>
+          <span class="shop-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <a href="#" class="shop-card">
+        <div class="shop-img">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80" alt="Cosmetics store">
+        </div>
+        <div class="shop-body">
+          <h3>Cosmetics & Beauty</h3>
+          <p>Expiry dates, batch tracking, and shade variants — all organized.</p>
+          <span class="shop-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <a href="#" class="shop-card">
+        <div class="shop-img">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Bakery and food">
+        </div>
+        <div class="shop-body">
+          <h3>Bakery & Food</h3>
+          <p>Fresh stock, daily production, and wastage tracking for perishables.</p>
+          <span class="shop-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="shops-cta">
+      <p>Don't see your shop type? Dorder works for all of them.</p>
+      <a href="#" class="btn btn-ghost">
+        Explore all categories <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+  <!-- ===== FEATURES SECTION ===== -->
+<section class="features" id="features">
+  <div class="features-inner">
+
+    <div class="features-head">
+      <p class="section-eyebrow">
+        <span class="dot"></span> Everything you need
+      </p>
+      <h2 class="section-title">
+        Powerful tools.<br>
+        <em>Zero complexity.</em>
+      </h2>
+      <p class="section-desc">
+        Simple, fast, and built for shop owners — not accountants.
+        Everything works right from your phone.
+      </p>
+    </div>
+
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-mobile-screen"></i>
+        </div>
+        <h3>Phone as scanner</h3>
+        <p>Your phone camera becomes a barcode scanner. No separate hardware. No extra cost.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-boxes-stacked"></i>
+        </div>
+        <h3>Smart inventory</h3>
+        <p>Add items with photos, prices, and stock. Get alerts before you run out.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-receipt"></i>
+        </div>
+        <h3>Order management</h3>
+        <p>Track every sale, return, and pending order from one clean dashboard.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-chart-simple"></i>
+        </div>
+        <h3>Sales insights</h3>
+        <p>See what's selling, what's not, and when your busiest hours are.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <h3>Low stock alerts</h3>
+        <p>Never miss a sale because an item ran out. Notifications come automatically.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fa-solid fa-users"></i>
+        </div>
+        <h3>Multi-staff access</h3>
+        <p>Give your team their own login. Track who sold what and when.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <!-- ===== HOW IT WORKS SECTION ===== -->
+<section class="how" id="how">
+  <div class="how-inner">
+
+    <div class="how-head">
+      <p class="section-eyebrow">
+        <span class="dot"></span> How it works
+      </p>
+      <h2 class="section-title">
+        Three steps.<br>
+        <em>That's it.</em>
+      </h2>
+      <p class="section-desc">
+        Set up your shop in minutes. No training, no manuals, no headaches.
+      </p>
+    </div>
+
+    <div class="how-steps">
+
+      <div class="how-step">
+        <div class="how-num-wrap">
+          <span class="how-num">01</span>
+        </div>
+        <h3>Create your shop</h3>
+        <p>Sign up, add your shop name and type. Takes two minutes. Free forever.</p>
+      </div>
+
+      <div class="how-connector" aria-hidden="true">
+        <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+          <path d="M0,10 Q25,2 50,10 T100,10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/>
+        </svg>
+      </div>
+
+      <div class="how-step">
+        <div class="how-num-wrap">
+          <span class="how-num">02</span>
+        </div>
+        <h3>Add or scan items</h3>
+        <p>Point your camera at a barcode, or type details manually. Add photos if you like.</p>
+      </div>
+
+      <div class="how-connector" aria-hidden="true">
+        <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+          <path d="M0,10 Q25,2 50,10 T100,10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/>
+        </svg>
+      </div>
+
+      <div class="how-step">
+        <div class="how-num-wrap">
+          <span class="how-num">03</span>
+        </div>
+        <h3>Start selling</h3>
+        <p>Ring up sales, track stock, and see reports — all from your phone.</p>
+      </div>
+
+    </div>
+
+    <div class="how-cta">
+      <a href="#" class="btn btn-dark">
+        Get started free <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</section>
+  <!-- ===== DASHBOARD PREVIEW SECTION ===== -->
+<section class="preview" id="preview">
+  <div class="preview-inner">
+
+    <div class="preview-head">
+      <p class="section-eyebrow">
+        <span class="dot"></span> Live dashboard
+      </p>
+      <h2 class="section-title">
+        See everything.<br>
+        <em>From one screen.</em>
+      </h2>
+      <p class="section-desc">
+        Sales, stock, orders, and insights — all in a clean dashboard
+        that updates in real time.
+      </p>
+    </div>
+
+    <div class="preview-stage">
+
+      <!-- Floating stat cards -->
+      <div class="preview-float pf-1">
+        <span class="pf-icon green"><i class="fa-solid fa-arrow-trend-up"></i></span>
+        <div>
+          <strong>+18.4%</strong>
+          <span>Weekly growth</span>
+        </div>
+      </div>
+
+      <div class="preview-float pf-2">
+        <span class="pf-icon gold"><i class="fa-solid fa-box"></i></span>
+        <div>
+          <strong>1,247</strong>
+          <span>Items in stock</span>
+        </div>
+      </div>
+
+      <div class="preview-float pf-3">
+        <span class="pf-icon teal"><i class="fa-solid fa-receipt"></i></span>
+        <div>
+          <strong>48 orders</strong>
+          <span>Today</span>
+        </div>
+      </div>
+
+      <!-- Browser mockup -->
+      <div class="browser">
+        <div class="browser-bar">
+          <div class="browser-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="browser-url">
+            <i class="fa-solid fa-lock"></i>
+            app.dorder.pk/dashboard
+          </div>
+          <div class="browser-actions">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+
+        <div class="browser-body">
+
+          <!-- Sidebar -->
+          <aside class="dash-side">
+            <div class="dash-brand">
+              <span class="dash-brand-mark"><i class="fa-solid fa-layer-group"></i></span>
+              <span>Dorder</span>
+            </div>
+            <nav class="dash-nav">
+              <a class="active"><i class="fa-solid fa-grid-2"></i> Overview</a>
+              <a><i class="fa-solid fa-box"></i> Inventory</a>
+              <a><i class="fa-solid fa-receipt"></i> Orders</a>
+              <a><i class="fa-solid fa-chart-simple"></i> Reports</a>
+              <a><i class="fa-solid fa-users"></i> Staff</a>
+            </nav>
+            <div class="dash-shop">
+              <span class="dash-avatar">AK</span>
+              <div>
+                <strong>Ali Kirana</strong>
+                <span>Lahore</span>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Main content -->
+          <main class="dash-main">
+
+            <div class="dash-top">
+              <div>
+                <h3>Overview</h3>
+                <p>Today at your shop</p>
+              </div>
+              <div class="dash-top-actions">
+                <span class="dash-pill"><i class="fa-solid fa-bell"></i></span>
+                <span class="dash-pill"><i class="fa-solid fa-plus"></i> Add item</span>
+              </div>
+            </div>
+
+            <!-- Stat row -->
+            <div class="dash-stats">
+              <div class="dash-stat">
+                <span class="ds-label">Sales</span>
+                <span class="ds-val">Rs 24,580</span>
+                <span class="ds-change up"><i class="fa-solid fa-arrow-up"></i> 12.4%</span>
+              </div>
+              <div class="dash-stat">
+                <span class="ds-label">Orders</span>
+                <span class="ds-val">48</span>
+                <span class="ds-change up"><i class="fa-solid fa-arrow-up"></i> 8.2%</span>
+              </div>
+              <div class="dash-stat">
+                <span class="ds-label">Stock</span>
+                <span class="ds-val">1,247</span>
+                <span class="ds-change down"><i class="fa-solid fa-arrow-down"></i> 3.1%</span>
+              </div>
+              <div class="dash-stat warn">
+                <span class="ds-label">Low stock</span>
+                <span class="ds-val">7</span>
+                <span class="ds-change neutral">Attention</span>
+              </div>
+            </div>
+
+            <!-- Chart + alerts -->
+            <div class="dash-mid">
+              <div class="dash-card chart-card">
+                <div class="dc-head">
+                  <strong>Sales this week</strong>
+                  <span class="dc-badge">7 days</span>
+                </div>
+                <div class="mini-bars">
+                  <div class="mini-bar" style="--h:45%"></div>
+                  <div class="mini-bar" style="--h:62%"></div>
+                  <div class="mini-bar" style="--h:38%"></div>
+                  <div class="mini-bar" style="--h:78%"></div>
+                  <div class="mini-bar active" style="--h:95%"></div>
+                  <div class="mini-bar" style="--h:70%"></div>
+                  <div class="mini-bar" style="--h:55%"></div>
+                </div>
+                <div class="mini-labels">
+                  <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span>
+                  <span>Fri</span><span>Sat</span><span>Sun</span>
+                </div>
+              </div>
+
+              <div class="dash-card alert-card">
+                <div class="dc-head">
+                  <strong>Low stock</strong>
+                  <span class="dc-badge warn">4 items</span>
+                </div>
+                <ul class="alert-mini">
+                  <li>
+                    <span class="am-dot urgent"></span>
+                    <div><strong>Rice 5kg</strong><span>3 left</span></div>
+                  </li>
+                  <li>
+                    <span class="am-dot urgent"></span>
+                    <div><strong>Oil 1L</strong><span>5 left</span></div>
+                  </li>
+                  <li>
+                    <span class="am-dot soft"></span>
+                    <div><strong>Milk 1L</strong><span>8 left</span></div>
+                  </li>
+                  <li>
+                    <span class="am-dot soft"></span>
+                    <div><strong>Bread</strong><span>12 left</span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </main>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-inner">
+
+    <div class="testimonials-head">
+      <p class="section-eyebrow">
+        <span class="dot"></span> Loved by shop owners
+      </p>
+      <h2 class="section-title">
+        Real shops.<br>
+        <em>Real results.</em>
+      </h2>
+      <p class="section-desc">
+        Thousands of shop owners across Pakistan run their business on Dorder.
+        Here's what a few of them have to say.
+      </p>
+    </div>
+
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Pehle register mein sab kuch likhna parta tha. Ab bas phone se scan karo
+          aur sale ho gayi. 30 minutes daily bachte hain."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80')"></div>
+          <div>
+            <strong>Hamza Ali</strong>
+            <span>Ali Kirana Store · Lahore</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card featured">
+        <div class="testimonial-quote-mark">
+          <i class="fa-solid fa-quote-left"></i>
+        </div>
+        <div class="testimonial-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Stock kab khatam ho raha hai, yeh pehle pata hi nahi chalta tha.
+          Ab alerts aate hain aur main time pe reorder karta hoon. Sales 40% barh gayi."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80')"></div>
+          <div>
+            <strong>Ayesha Malik</strong>
+            <span>Malik Toys & Gifts · Karachi</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Meri boutique ke liye best hai. Size, color, style — sab track hota hai.
+          Staff ko bhi login de diya, ab sab manage karte hain."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80')"></div>
+          <div>
+            <strong>Sana Riaz</strong>
+            <span>Style Studio · Islamabad</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="testimonials-stats">
+      <div class="ts-item">
+        <strong>12,000+</strong>
+        <span>Active shops</span>
+      </div>
+      <div class="ts-divider"></div>
+      <div class="ts-item">
+        <strong>4.9 ★</strong>
+        <span>Average rating</span>
+      </div>
+      <div class="ts-divider"></div>
+      <div class="ts-item">
+        <strong>98%</strong>
+        <span>Would recommend</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== FINAL CTA SECTION ===== -->
+<section class="final-cta">
+  <div class="final-cta-inner">
+    <div class="final-cta-card">
+
+      <div class="final-cta-glow" aria-hidden="true"></div>
+
+      <div class="final-cta-content">
+        <p class="final-cta-eyebrow">
+          <span class="dot"></span> Start today — free forever
+        </p>
+        <h2 class="final-cta-title">
+          Ready to modernize<br>
+          <em>your shop?</em>
+        </h2>
+        <p class="final-cta-desc">
+          Join thousands of shop owners using Dorder to save time,
+          track stock, and grow their business. No credit card required.
+        </p>
+        <div class="final-cta-actions">
+          <a href="#" class="btn btn-light-cta">
+            Get started free <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#" class="btn btn-outline-cta">
+            <i class="fa-solid fa-play"></i> Watch demo
+          </a>
+        </div>
+        <p class="final-cta-note">
+          <i class="fa-solid fa-check"></i> No credit card
+          <span>·</span>
+          <i class="fa-solid fa-check"></i> Setup in 2 minutes
+          <span>·</span>
+          <i class="fa-solid fa-check"></i> Cancel anytime
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark"><i class="fa-solid fa-layer-group"></i></span>
+          <span class="logo-word">Dorder</span>
+        </a>
+        <p>
+          Retail management for the modern shop owner.
+          Made for Pakistan, built for the world.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#">Features</a>
+          <a href="#">Dashboard</a>
+          <a href="#">Pricing</a>
+          <a href="#">Integrations</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#">Help Center</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Dorder. All rights reserved.</span>
+      <span class="footer-locale"><i class="fa-solid fa-globe"></i> English (PK)</span>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>

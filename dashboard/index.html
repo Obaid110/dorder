@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorder — Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/dashboard/style.css">
+</head>
+<body>
+
+<div class="dash-layout">
+
+  <!-- SIDEBAR (static — sirf active state change hoga) -->
+  <aside class="sidebar">
+    <a href="#" class="side-logo" onclick="navigate('overview'); return false;">
+      <span class="side-logo-mark"><i class="fa-solid fa-layer-group"></i></span>
+      <span class="side-logo-word">Dorder</span>
+    </a>
+
+    <nav class="side-nav" id="sideNav">
+      <p class="side-nav-label">Menu</p>
+      <a href="#" data-page="overview" class="active">
+        <i class="fa-solid fa-grid-2"></i><span>Overview</span>
+      </a>
+      <a href="#" data-page="inventory">
+        <i class="fa-solid fa-box"></i><span>Inventory</span>
+        <span class="side-badge" id="badgeInventory">0</span>
+      </a>
+      <a href="#" data-page="orders">
+        <i class="fa-solid fa-receipt"></i><span>Orders</span>
+        <span class="side-badge new" id="badgeOrders">0</span>
+      </a>
+      <a href="#" data-page="reports">
+        <i class="fa-solid fa-chart-simple"></i><span>Reports</span>
+      </a>
+      <a href="#" data-page="staff">
+        <i class="fa-solid fa-users"></i><span>Staff</span>
+      </a>
+      <a href="#" data-page="scan">
+        <i class="fa-solid fa-camera"></i><span>Scan Item</span>
+      </a>
+
+      <p class="side-nav-label">General</p>
+      <a href="#" data-page="settings">
+        <i class="fa-solid fa-gear"></i><span>Settings</span>
+      </a>
+    </nav>
+
+    <div class="side-shop">
+      <span class="side-avatar">AK</span>
+      <div class="side-shop-info">
+        <strong id="shopName">Ali Kirana Store</strong>
+        <span id="shopLoc">Lahore · Grocery</span>
+      </div>
+      <i class="fa-solid fa-chevron-up side-shop-arrow"></i>
+    </div>
+  </aside>
+
+  <!-- MAIN — yahan page content render hoga -->
+  <main class="main" id="mainContent"></main>
+
+</div>
+
+<!-- MODAL (reusable) -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal"></div>
+</div>
+
+<!-- TOAST (notifications) -->
+<div class="toast-wrap" id="toastWrap"></div>
+
+<script src="/dashboard/script.js"></script>
+</body>
+</html>
